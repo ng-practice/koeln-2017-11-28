@@ -1,0 +1,32 @@
+{
+  "368484af-ca37-4047-a4a0-d4f95ff81eb0": {
+    "id": "1",
+    "title": "erste Notiz",
+    "text": "denke daran Komponenten zu importieren und exportieren",
+    "todos": []
+  },
+  "a26047a9-f219-4957-ba7f-52fd7bb8a828": {
+    "id": "2",
+    "title": "Angular Documentation",
+    "text": "check out <a href=\"https://angular.io\">https://angular.io</a>",
+    "todos": []
+  },
+  "d5013103-d6bb-427d-8c7b-2042dd9604da": {
+    "id": "3",
+    "title": "Einkaufsliste",
+    "text": "Folgendes kannst du im Supermarkt holen",
+    "todos": [{
+        "id": "31",
+        "task": "Milch"
+      },
+      {
+        "id": "32",
+        "task": "Butter"
+      },
+      {
+        "id": "33",
+        "task": "Eier"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+
+li.scoredout{
+  text-decoration: line-through;
+}
+
+:host {
+  float: left;
+  margin: 10px;
+  height: 100%;
+  min-width: 300px;
+  max-width: 600px;
+}
