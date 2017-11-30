@@ -1,0 +1,40 @@
+<mat-card>
+  <form #form="ngForm">
+    <mat-form-field>
+      <input
+              matInput
+              name="guid"
+              type="text"
+              [(ngModel)]="note.guid"
+              disabled
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+              required
+              matInput
+              name="title"
+              type="text"
+              [(ngModel)]="note.title"
+      />
+    </mat-form-field>
+    <mat-form-field>
+      <input
+              required
+              #text="ngModel"
+              matInput
+              name="text"
+              type="text"
+              [(ngModel)]="note.text" />
+      <mat-error *ngIf="text.hasError('required')">
+        Text is Required
+      </mat-error>
+    </mat-form-field>
+    <button
+            [disabled]="form.invalid"
+            (click)="editNote()"
+    >
+      änder
+    </button>
+  </form>
+</mat-card>

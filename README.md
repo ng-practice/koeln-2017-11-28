@@ -16,8 +16,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 |        |Url|Description|
 |--------|---------|-----------|
-|`GET`   |/notes/all|Gets all notes|
-|`GET`   |/notes/single/:guid|Gets a single note by its GUID|
-|`POST`  |/notes/create/|Creates a new note|
-|`PUT`   |/notes/update/|Updates a note|
-|`DELETE`|/notes/remove/:guid|Deletes the specified note|
+|`GET`   |/notes|Gets all notes|
+|`GET`   |/note/:guid |Gets a single note by its GUID|
+|`POST`  |/note |Creates a new note|
+|`PUT`   |/note |Updates a note|
+|`DELETE`|/memo/:guid |Deletes the specified note|

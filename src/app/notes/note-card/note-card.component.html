@@ -1,0 +1,20 @@
+<mat-card>
+    <div><a [routerLink]="['/details', noteInput.guid]">{{noteInput.title}}</a> </div>
+    <p>{{noteInput.text}}</p>
+    <div class="actions">
+        <!--button.priority*2-->
+        <button
+                class="decrease-priority"
+                (click)="decreasePriority()"
+        >-</button>
+        <span>{{noteInput.priority}}</span>
+        <button
+                class="increase-priority"
+                (click)="increasePriority()">+</button>
+        <button class="delete"
+                (click)="delete()">
+            Löschen
+        </button>
+    </div>
+
+</mat-card>

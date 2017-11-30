@@ -1,39 +1,31 @@
 {
-    "368484af-ca37-4047-a4a0-d4f95ff81eb0": {
-        "id": "1",
-        "title": "erste Notiz",
-        "text": "denke daran Komponenten zu importieren und exportieren",
+    "613070433225289": {
+        "title": "fsdgfdsg",
+        "text": "sgddgfjsd",
         "priority": 0,
-        "todos": []
+        "guid": "613070433225289"
     },
-    "a26047a9-f219-4957-ba7f-52fd7bb8a828": {
-        "id": "2",
-        "title": "Angular Documentation",
-        "text": "check out <a href=\"https://angular.io\">https://angular.io</a>",
+    "1902961434042458": {
+        "title": "dsdsd",
+        "text": "sdsdds",
         "priority": 0,
-        "todos": []
+        "guid": "1902961434042458"
     },
-    "d5013103-d6bb-427d-8c7b-2042dd9604da": {
-        "id": "3",
-        "title": "Einkaufsliste",
-        "text": "Folgendes kannst du im Supermarkt holen",
+    "683801399163694": {
+        "title": "test",
+        "text": "test",
         "priority": 0,
-        "todos": [
-            {
-                "id": "31",
-                "task": "Milch",
-                "isCompleted": "false"
-            },
-            {
-                "id": "32",
-                "task": "Butter",
-                "isCompleted": "false"
-            },
-            {
-                "id": "33",
-                "task": "Eier",
-                "isCompleted": "false"
-            }
-        ]
+        "guid": "683801399163694"
+    },
+    "7360842773645424": {
+        "title": "dsdds",
+        "text": "sdsdsd",
+        "priority": 0,
+        "guid": "7360842773645424"
+    },
+    "37294149367336": {
+        "title": "fhfh",
+        "text": "hdhdhd",
+        "priority": 0
     }
 }

@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-
+import {NotesService} from './notes/shared/notes.service';
+import {Note} from './notes/models/note';
 
 @Component({
   selector: 'tr-root',
@@ -8,5 +9,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ng-workshop';
+    constructor(
+        private notesService: NotesService) {
 
+    }
 }

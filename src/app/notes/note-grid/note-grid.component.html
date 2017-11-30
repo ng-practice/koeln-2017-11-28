@@ -1,0 +1,11 @@
+<tr-note-add-form
+   (created)="pushNote($event)"
+>
+</tr-note-add-form>
+<tr-note-card
+   *ngFor="let note of notesInput"
+   [noteInput]="note"
+   (priorized)="setPriority()"
+   (deleted)="deleteNote($event)">
+
+</tr-note-card>
